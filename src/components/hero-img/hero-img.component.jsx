@@ -1,13 +1,7 @@
 import React from "react"
-import styled from "styled-components"
+import { StyledHeroImg } from "./hero-img.styles"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-
-const StyledHeroImg = styled.div`
-  height: 250px;
-  width: 250px;
-  /* background-color: red; */
-`
 
 const HeroImg = () => {
   const data = useStaticQuery(graphql`

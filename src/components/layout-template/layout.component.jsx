@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Grid from "./grid"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import Grid from "../grid/grid.styles"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
