@@ -1,0 +1,26 @@
+[
+  {
+    "id": "03",
+    "name": "Github",
+    "image": "./images/001-github.png",
+    "link": "https://github.com/campbehr"
+  },
+  {
+    "id": "01",
+    "name": "LinkedIn",
+    "image": "./images/002-linkedin.png",
+    "link": "https://www.linkedin.com/in/campbehr/"
+  },
+  {
+    "id": "02",
+    "name": "Twitter",
+    "image": "./images/003-twitter.png",
+    "link": "https://twitter.com/Campbehr"
+  },
+  {
+    "id": "04",
+    "name": "Medium",
+    "image": "./images/004-medium.png",
+    "link": "https://medium.com/@hunter.campbell843"
+  }
+]
