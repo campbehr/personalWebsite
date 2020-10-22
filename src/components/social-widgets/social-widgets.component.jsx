@@ -29,7 +29,7 @@ const WidgetBar = () => {
     <StyledSocialBar>
       {data.widgetData.edges.map(widgets => (
         <div className="widget">
-          <a href={widgets.node.link}>
+          <a href={widgets.node.link} target="_blank">
             <Img
               key={widgets.node.id}
               alt={widgets.node.name}
