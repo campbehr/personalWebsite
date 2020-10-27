@@ -4,9 +4,9 @@ const Grid = styled.div`
   display: grid;
   min-height: 100vh;
   grid:
-    "leftMain" 200px
+    "leftMain" auto
     "rightMain" auto
-    "about" 1000px
+    "about" auto
     "portfolio" auto /**change the width when adding material */
     "contact" 700px /
     1fr;
@@ -38,28 +38,18 @@ const Grid = styled.div`
     /* border: 3px solid turquoise; */
   }
 
-  @media screen and (min-width: 450px) {
-    grid:
-      "leftMain" 250px
-      "rightMain" auto
-      "about" 850px
-      "portfolio" auto /**change the width when adding material */
-      "contact" 700px /
-      1fr;
-  }
-
   @media screen and (min-width: 750px) {
     grid:
-      "leftMain rightMain" 750px
+      "leftMain rightMain" auto
       "about about" auto
-      "portfolio portfolio" auto /**change the width when adding material */
+      "portfolio portfolio" auto
       "contact contact" 700px /
       1fr 1fr;
   }
 
   @media screen and (min-width: 900px) {
     grid:
-      "leftMain rightMain" 750px
+      "leftMain rightMain" auto
       "about about" auto
       "portfolio portfolio" auto
       "contact contact" 750px /
@@ -68,7 +58,7 @@ const Grid = styled.div`
 
   @media screen and (min-width: 1440px) {
     grid:
-      ". leftMain rightMain ." 950px
+      ". leftMain rightMain ." auto
       ". about about about" auto
       ". portfolio portfolio ." auto
       "contact contact contact ." 800px/

@@ -12,11 +12,13 @@ export const StyledSocialBar = styled.div`
   .widget {
     height: 55px;
     width: 55px;
+    background-color: white;
+    border-radius: 10px;
   }
 
   @media screen and (min-width: 750px) {
     .widget {
-      padding-top: 30px;
+      margin-top: 30px;
     }
   }
 

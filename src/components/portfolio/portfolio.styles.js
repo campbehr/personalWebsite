@@ -15,6 +15,29 @@ export const Title = styled.h2`
   }
 `
 
+export const ThumbnailTitleContainer = styled.article`
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin: 200px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.6;
+  z-index: 5;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  @media screen and (min-width: 750px) {
+    margin: 200px 150px;
+  }
+`
+
 const centerChild = css`
   display: flex;
   justify-content: center;
@@ -28,25 +51,26 @@ const centerChild = css`
     width: 500px;
   }
 `
-const margins = css`
-  margin-bottom: 50px;
-`
 
-export const ChildDiv = styled.div`
+export const ThumbnailContainer = styled.div`
   width: 290px;
   height: 490px;
   background-color: white;
   border-radius: 10px;
+
+  div {
+    height: 100%;
+  }
 
   @media screen and (min-width: 750px) {
     width: 490px;
   }
 `
 
-export const LeftContainer = styled.div`
+export const LeftThumbnailContainer = styled.div`
   ${centerChild}
-  ${margins}
   background-color: black;
+  margin-bottom: 50px;
 
   @media screen and (min-width: 900px) {
     margin-right: 40%;
@@ -56,10 +80,10 @@ export const LeftContainer = styled.div`
   }
 `
 
-export const RightContainer = styled.div`
+export const RightThumbnailContainer = styled.div`
   ${centerChild}
-  ${margins}
   background-color: purple;
+  margin-bottom: 50px;
 
   @media screen and (min-width: 900px) {
     margin-left: 40%;

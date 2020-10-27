@@ -42,7 +42,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: node.fields.slug,
 
       component: path.resolve(
-        `./src/components/project-pages/projects-page-layout.js`
+        `./src/components/project-pages/projects-page-layout.component.jsx`
       ),
 
       context: { id: node.id },

@@ -1,11 +1,7 @@
 import React from "react"
-import "../styles/index.css"
-import HomePage from "./homepage/homepage.page"
+import "../styles-global/index.css"
+import HomePage from "./homepage"
 
-const IndexPage = () => (
-  <>
-    <HomePage />
-  </>
-)
+const IndexPage = () => <>{<HomePage />}</>
 
 export default IndexPage
