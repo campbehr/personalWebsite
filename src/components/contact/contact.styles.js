@@ -31,6 +31,20 @@ export const Form = styled.form`
     width: 600px;
   }
 
+  p {
+    width: 100%;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    @media screen and (min-width: 1440px) {
+      justify-content: flex-start;
+    }
+  }
+
   input {
     width: 90%;
     height: 30px;
