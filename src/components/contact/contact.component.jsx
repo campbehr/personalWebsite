@@ -14,35 +14,17 @@ const Contact = () => {
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
-        <p>
-          <label>
-            <input type="text" name="name" placeholder="Name" />
-          </label>
-        </p>
-        <p>
-          <label>
-            <input type="email" name="email" placeholder="Email" />
-          </label>
-        </p>
-        <p>
-          <label>
-            <input type="hidden" name="bot-field" />
-          </label>
-        </p>
+        <input type="text" name="name" placeholder="Name" />
 
-        <p>
-          <label>
-            <textarea name="message" placeholder="Leave a message"></textarea>
-          </label>
-        </p>
+        <input type="email" name="email" placeholder="Email" />
 
-        <p>
-          <label style={{ width: `135px` }}>
-            <CustomButton type="submit" inverted>
-              Send
-            </CustomButton>
-          </label>
-        </p>
+        <input type="hidden" name="bot-field" />
+
+        <textarea name="message" placeholder="Leave a message"></textarea>
+
+        <CustomButton type="submit" inverted>
+          Send
+        </CustomButton>
       </Form>
     </FormContainer>
   )
