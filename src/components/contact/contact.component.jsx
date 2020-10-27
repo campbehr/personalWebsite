@@ -11,8 +11,8 @@ const Contact = () => {
       <Form
         name="contact-form"
         method="POST"
-        data-netlify-recaptcha="true"
         data-netlify="true"
+        netlify-honeypot="bot-field"
       >
         <p>
           <label>
@@ -24,13 +24,18 @@ const Contact = () => {
             <input type="email" name="email" placeholder="Email" />
           </label>
         </p>
+        <p>
+          <label>
+            <input type="hidden" name="bot-field" />
+          </label>
+        </p>
 
         <p>
           <label>
             <textarea name="message" placeholder="Leave a message"></textarea>
           </label>
         </p>
-        <div data-netlify-recaptcha="true"></div>
+
         <p>
           <label style={{ width: `135px` }}>
             <CustomButton type="submit" inverted>
