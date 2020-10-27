@@ -46,11 +46,11 @@ export const SectionPara = styled.p`
     padding-left: 60px;
   }
 `
-export const Btn = styled.button`
+export const Button = styled.button`
   margin-top: 30px;
 `
 
-export const BtnContainer = styled.div`
+export const ButtonContainer = styled.div`
   ${divStyles}
   width: 50%;
   height: 200px;

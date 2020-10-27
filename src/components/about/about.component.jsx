@@ -1,11 +1,11 @@
 import React from "react"
-import CustomBtn from "../custom-btn/custom-btn.component"
+import CustomButton from "../custom-button/custom-button.component"
 import {
   AboutContainer,
   ContentContainer,
   SectionTitle,
   SectionPara,
-  BtnContainer,
+  ButtonContainer,
   Background,
 } from "./about.styles"
 
@@ -16,28 +16,50 @@ const About = () => {
         <ContentContainer>
           <SectionTitle>About</SectionTitle>
           <SectionPara>
-            Allow me a moment to tell you a little about myself. Throughout my
-            professional career I have had a wide range of jobs. From making
-            denture molds, to construction, to banking, I've enjoyed them all
-            but never felt satisfied at the end of a work week. I could never
-            put my finger on what all of these jobs were missing but the day I
-            found programming the lightbulb went off! Endless opportunities to
-            create something new and the ability to show the word with just a
-            few lines of code. Simply amazing! That was about a year ago, and
-            I've spent all of my spare time trying to learn as much as I can
-            since.
+            Thanks for stopping by my page! If you'd like to learn less of me as
+            a person, than feel free to scroll to the next session titled,
+            Portfolio. Otherwise, my hopes are that through navigating this site
+            in its entirety, you will have a nice snapshot of who I am, and my
+            overall ability as a web developer. Onto a little bit about myslef
           </SectionPara>
           <SectionPara>
-            Below you will find links to some of my projects, resume, and some
-            articles that I have posted. At the bottom of the page you will find
-            a contact form if you have any questions.
+            I consider myself a very reserved person who loves a lively room.
+            When I have free time, I love to go on adventures with my finace´
+            and crazy pup, Maverick. I tell him all the time that one day we'll
+            get him a Goose, but I don't think he believes me anymore. Other
+            things I love are endurance races and most other sports related
+            activities. My favorite movies (becuase I can't just pick one) are
+            <i>Hidalgo, Star Wars,</i> and <i>A Knight's Tale</i>. When working,
+            I like to listen to Led Zepplin or Cream, and when I find time, I
+            love to read series novels from Tolkein to Rowling and from Martin
+            to Pierce Brown... not to be confused with the other Brown. Other
+            than that, I consider myself a life long learner and love to find
+            the detail in the devils.
           </SectionPara>
-          <SectionPara>- Thanks again for stopping by!</SectionPara>
+          <SectionPara>
+            <h3>Skills proficient in</h3>
+            Javascript // React // SASS // Styled-Components // GraphQL <br />
+            <h3>Other Skills</h3>
+            Git // CSS3 // HTML5 // Github // Bootstrap // npm
+          </SectionPara>
         </ContentContainer>
-        <BtnContainer>
-          <CustomBtn>Resume</CustomBtn>
-          <CustomBtn>Articles</CustomBtn>
-        </BtnContainer>
+        <ButtonContainer>
+          {/* Resume linked to public google doc set for view only */}
+          <a
+            href="https://docs.google.com/document/d/1mA3o5YYVEyXDly46XLi9vap2lH-dH129Wj7ntH_qVzQ/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CustomButton>Resume</CustomButton>
+          </a>
+          <a
+            href="https://medium.com/@hunter.campbell843"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CustomButton>Articles</CustomButton>
+          </a>
+        </ButtonContainer>
       </AboutContainer>
     </Background>
   )

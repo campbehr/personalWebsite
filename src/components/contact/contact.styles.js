@@ -1,13 +1,49 @@
 import styled from "styled-components"
 
-export const Footer = styled.footer`
+export const FormContainer = styled.div`
   display: flex;
-  background-color: black;
-  z-index: 2;
+  flex-direction: column;
+  align-items: center;
 
-  @media screen and (min-width: 750px) {
-    width: 80%;
-    justify-self: flex-start;
-    box-shadow: 2px 2px 4px 1px black;
+  h2 {
+    margin: 32px 0 0 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    align-items: flex-start;
+  }
+`
+
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 600px;
+
+  @media screen and (min-width: 550px) {
+    width: 500px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    align-items: flex-start;
+    width: 600px;
+  }
+
+  input {
+    width: 90%;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow: auto;
+    resize: none;
   }
 `

@@ -1,9 +1,28 @@
 import React from "react"
 
-import { Footer } from "./contact.styles"
+import CustomButton from "../custom-button/custom-button.component"
+
+import { Form, FormContainer } from "./contact.styles"
 
 const Contact = () => {
-  return <Footer>Hi, I'm the Contact!</Footer>
+  return (
+    <FormContainer id="contact">
+      <h2>Contact</h2>
+      <Form
+        name="contact-form"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input name="name" placeholder="Name" type="text" />
+        <input name="email" placeholder="Email" type="email" />
+        <textarea name="message" placeholder="Leave a message!" />
+        <CustomButton type="submit" inverted>
+          Send
+        </CustomButton>
+      </Form>
+    </FormContainer>
+  )
 }
 
 export default Contact
