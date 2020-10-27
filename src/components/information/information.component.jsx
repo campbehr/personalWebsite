@@ -1,6 +1,8 @@
 import React from "react"
 import WidgetBar from "../social-widgets/social-widgets.component"
 
+import { Link } from "gatsby"
+
 import {
   InformationContainer,
   FooterHeader,
@@ -13,11 +15,13 @@ const Information = () => {
     <InformationContainer>
       <FooterHeader>
         <FooterTitle>
-          <h1>
-            Hunter
-            <br />
-            Campbell
-          </h1>
+          <a href="#home">
+            <h1>
+              Hunter
+              <br />
+              Campbell
+            </h1>
+          </a>
         </FooterTitle>
         <FooterSocialLinks>
           <WidgetBar />
