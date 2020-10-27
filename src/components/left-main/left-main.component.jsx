@@ -4,7 +4,7 @@ import { LeftMainContainer } from "./left-main.styles.js"
 
 const LeftMain = () => (
   <LeftMainContainer>
-    <h1 id="home">
+    <h1>
       Hi,
       <br />
       I'm Hunter Campbell

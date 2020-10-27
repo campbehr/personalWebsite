@@ -57,20 +57,20 @@ module.exports = {
         // background_color: `#663399`,
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicons/android-chrome-512x512.png`,
-        icon_options: {
-          purpose: `any maskable`,
-        },
-        cache_busting_mode: `none`,
+        // icon: `src/images/favicons/android-chrome-512x512.png`,
+        // icon_options: {
+        //   purpose: `any maskable`,
+        // },
+        // cache_busting_mode: `none`,
       },
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          globPatterns: [`src/images/favicons/android-chrome-192x192.png`],
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-offline`,
+    //   options: {
+    //     workboxConfig: {
+    //       globPatterns: [`src/images/favicons/android-chrome-192x192.png`],
+    //     },
+    //   },
+    // },
   ],
 }

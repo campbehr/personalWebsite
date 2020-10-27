@@ -15,13 +15,11 @@ const Information = () => {
     <InformationContainer>
       <FooterHeader>
         <FooterTitle>
-          <a href="#home">
-            <h1>
-              Hunter
-              <br />
-              Campbell
-            </h1>
-          </a>
+          <h1>
+            Hunter
+            <br />
+            Campbell
+          </h1>
         </FooterTitle>
         <FooterSocialLinks>
           <WidgetBar />
