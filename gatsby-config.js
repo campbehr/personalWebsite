@@ -61,16 +61,16 @@ module.exports = {
         icon_options: {
           purpose: `any maskable`,
         },
-        cache_busting_mode: `none`,
+        // cache_busting_mode: `none`,
       },
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          globPatterns: [`src/images/favicons/android-chrome-192x192.png`],
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-offline`,
+    //   options: {
+    //     workboxConfig: {
+    //       globPatterns: [`src/images/favicons/android-chrome-192x192.png`],
+    //     },
+    //   },
+    // },
   ],
 }
