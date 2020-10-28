@@ -10,6 +10,7 @@ import {
   LeftThumbnailContainer,
   RightThumbnailContainer,
   Title,
+  TitleBox,
 } from "./portfolio.styles"
 
 const AlternateThumbnailStyles = ({ id, ...otherProps }) =>
@@ -45,13 +46,16 @@ const Portfolio = () => {
   `)
   return (
     <PortfolioContainer>
-      <Title>Portfolio</Title>
+      <TitleBox>
+        <Title>Portfolio</Title>
+      </TitleBox>
       {data.projects.nodes.map(project => (
         <AlternateThumbnailStyles id={project.frontmatter.id}>
           <ThumbnailContainer>
             <Link to={project.frontmatter.path}>
               <ThumbnailTitleContainer>
                 <h3>{project.frontmatter.category}</h3>
+                <span style={{ color: "fuchsia" }}>VIEW</span>
               </ThumbnailTitleContainer>
             </Link>
             <Img

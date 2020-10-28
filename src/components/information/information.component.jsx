@@ -1,8 +1,6 @@
 import React from "react"
 import WidgetBar from "../social-widgets/social-widgets.component"
 
-import { Link } from "gatsby"
-
 import {
   InformationContainer,
   FooterHeader,

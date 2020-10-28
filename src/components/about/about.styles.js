@@ -39,7 +39,7 @@ export const SectionTitle = styled.h2`
 export const SectionPara = styled.p`
   padding: 0 1.5rem;
   font-size: 18px;
-  line-height: 1.3em;
+  line-height: 1.6em;
   text-align: justify;
 
   @media screen and (min-width: 1440px) {
