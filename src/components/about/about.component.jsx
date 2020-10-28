@@ -16,25 +16,18 @@ const About = () => {
         <ContentContainer>
           <SectionTitle>About</SectionTitle>
           <SectionPara>
-            Thanks for stopping by my page! If you'd like to learn less of me as
-            a person, than feel free to scroll to the next session titled,
-            Portfolio. Otherwise, my hopes are that through navigating this site
-            in its entirety, you will have a nice snapshot of who I am, and my
-            overall ability as a web developer. Onto a little bit about myslef
+            Thanks for stopping by my page! This site showcases my projects to
+            date which you can view and access below. I've also included a
+            summary of the libraries and frameworks used on each project as well
+            as my general takeaways. Now, on to a little more about myself.
           </SectionPara>
           <SectionPara>
-            I consider myself a very reserved person who loves a lively room.
-            When I have free time, I love to go on adventures with my finace´
-            and crazy pup, Maverick. I tell him all the time that one day we'll
-            get him a Goose, but I don't think he believes me anymore. Other
-            things I love are endurance races and most other sports related
-            activities. My favorite movies (becuase I can't just pick one) are
-            <i>Hidalgo, Star Wars,</i> and <i>A Knight's Tale</i>. When working,
-            I like to listen to Led Zepplin or Cream, and when I find time, I
-            love to read series novels from Tolkein to Rowling and from Martin
-            to Pierce Brown... not to be confused with the other Brown. Other
-            than that, I consider myself a life long learner and love to find
-            the detail in the devils.
+            I enjoy trying new things - whether it be in the kitchen, traveling,
+            or enjoying the outdoors. I find the unknown pretty exciting. I've
+            always been a big picture person but I will obsess over the small
+            things if not done correctly. I like collaborative efforts but I
+            also enjoy running with my own responsibilities. Other than that, I
+            consider myself a creative person and life long learner.
           </SectionPara>
           <SectionPara>
             <h3>Skills proficient in</h3>

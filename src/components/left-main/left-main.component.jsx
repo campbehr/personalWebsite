@@ -7,7 +7,7 @@ const LeftMain = () => (
     <h1>
       Hi,
       <br />
-      I'm Hunter Campbell
+      I'm Hunter Campbell ...
       <br />
       Welcome to my page!
     </h1>

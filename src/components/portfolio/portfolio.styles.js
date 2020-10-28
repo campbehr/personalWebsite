@@ -8,11 +8,22 @@ export const PortfolioContainer = styled.section`
   z-index: 2;
 `
 export const Title = styled.h2`
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 
   @media screen and (min-width: 750px) {
-    padding-top: 4em;
+    padding-top: 2em;
   }
+`
+export const TitleBox = styled.div`
+  width: 300px;
+  height: 150px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px fuchsia;
 `
 
 export const ThumbnailTitleContainer = styled.article`
@@ -21,11 +32,12 @@ export const ThumbnailTitleContainer = styled.article`
   height: 100px;
   margin: 200px 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: black;
   border-radius: 10px;
+  background-color: black;
   opacity: 0.6;
   z-index: 5;
 
