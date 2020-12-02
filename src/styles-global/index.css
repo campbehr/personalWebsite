@@ -26,28 +26,28 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", monospace;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 2rem;
   color: black;
   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc;
 }
 
 h2 {
-  font-family: "Roboto", monospace;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 1.75rem;
   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee;
 }
 
 h3 {
-  font-family: "Roboto", monospace;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 p {
-  font-family: "Nunito", monospace;
+  font-family: "Nunito", sans-serif;
   font-size: 1.15rem;
   line-height: 1.5rem;
 }

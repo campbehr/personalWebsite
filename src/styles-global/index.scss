@@ -28,8 +28,8 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", monospace;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 2rem;
   color: rgb(0, 0, 0);
   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
@@ -38,8 +38,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto", monospace;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 1.75rem;
   // text-decoration: underline;
   text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
@@ -47,14 +47,14 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto", monospace;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   // text-decoration: underline;
 }
 
 p {
-  font-family: "Nunito", monospace;
+  font-family: "Nunito", sans-serif;
   font-size: 1.15rem;
   line-height: 1.5rem;
 }

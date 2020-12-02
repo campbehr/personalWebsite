@@ -1,10 +1,11 @@
 import styled, { css } from "styled-components"
+import colors from "../../styles-global/colors"
 
 export const Background = styled.article`
   display: flex;
   height: auto;
-  background-color: white;
-  z-index: 2;
+  background-color: ${colors.two};
+  z-index: 5;
 
   @media screen and (min-width: 750px) {
     width: 80%;
@@ -32,6 +33,7 @@ export const ContentContainer = styled.div`
     max-width: 900px;
   }
 `
+
 export const SectionTitle = styled.h2`
   padding-top: 1rem;
 `
