@@ -30,18 +30,20 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [`light`, `300`, `bold`],
-          },
-          {
-            family: `Nunito`,
-            variants: [`regular`, `400`, `bold`],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: `Roboto`,
+              variants: [`light`, `300`, `bold`],
+            },
+            {
+              family: `Nunito`,
+              variants: [`regular`, `400`, `bold`],
+            },
+          ],
+        },
       },
     },
 
