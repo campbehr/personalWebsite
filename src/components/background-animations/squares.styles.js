@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import colors from "../../styles-global/colors"
 
 export const StyledSquares = styled.div`
   @media (max-width: 750px) {
@@ -9,12 +10,11 @@ export const StyledSquares = styled.div`
   justify-content: space-evenly;
   height: 400px;
   width: 60%;
-  opacity: 99%;
   z-index: 1;
   bottom: 150px;
 
   div {
-    border: 5px solid purple;
+    border: 5px solid ${colors.three};
 
     :nth-child(1) {
       height: 4rem;
@@ -25,19 +25,19 @@ export const StyledSquares = styled.div`
       animation: twinkle 2s infinite;
       @keyframes twinkle {
         0% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         25% {
-          border-color: fuchsia;
+          border-color: ${colors.highlight};
         }
         50% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         75% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         100% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
       }
     }
@@ -50,19 +50,19 @@ export const StyledSquares = styled.div`
       animation: twinkle 4s infinite;
       @keyframes twinkle {
         0% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         25% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         50% {
-          border-color: fuchsia;
+          border-color: ${colors.highlight};
         }
         75% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         100% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
       }
     }
@@ -75,19 +75,19 @@ export const StyledSquares = styled.div`
       animation: twinkle 5s infinite;
       @keyframes twinkle {
         0% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         25% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         50% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         75% {
-          border-color: fuchsia;
+          border-color: ${colors.highlight};
         }
         100% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
       }
     }
@@ -96,23 +96,23 @@ export const StyledSquares = styled.div`
       width: 5rem;
       align-self: flex-end;
       margin: 0 0 60px 20px;
-      /* background-color: fuchsia; */
+
       animation: twinkle 3s infinite;
       @keyframes twinkle {
         0% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         25% {
-          border-color: fuchsia;
+          border-color: ${colors.highlight};
         }
         50% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         75% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         100% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
       }
     }
@@ -125,19 +125,19 @@ export const StyledSquares = styled.div`
       animation: twinkle 6s infinite;
       @keyframes twinkle {
         0% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         25% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         50% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
         75% {
-          border-color: fuchsia;
+          border-color: ${colors.highlight};
         }
         100% {
-          border-color: purple;
+          border-color: ${colors.three};
         }
       }
     }

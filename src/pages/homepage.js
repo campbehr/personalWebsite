@@ -9,16 +9,18 @@ import Portfolio from "../components/portfolio/portfolio.component"
 import Footer from "../components/footer/footer.component"
 import Squares from "../components/background-animations/squares.component"
 
-const HomePage = () => (
-  <Layout>
-    <Squares />
-    <SEO title="Home" />
-    <LeftMain />
-    <RightMain />
-    <About />
-    <Portfolio />
-    <Footer />
-  </Layout>
-)
+const HomePage = () => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Squares />
+      <LeftMain />
+      <RightMain />
+      <About />
+      <Portfolio />
+      <Footer />
+    </Layout>
+  )
+}
 
 export default HomePage

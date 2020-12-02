@@ -14,6 +14,14 @@ const About = () => {
     <Background>
       <AboutContainer>
         <ContentContainer>
+          <SectionTitle>Skills</SectionTitle>
+          <SectionPara>
+            <h3>Front End</h3>
+            Javascript (ES6, ReactJS, GatsbyJS) // HTML // CSS3 // SASS // REST
+            APIs // Git <br />
+            <h3>Back End</h3>
+            NodeJS // NoSQL (MongoDB) // Java // AWS
+          </SectionPara>
           <SectionTitle>About</SectionTitle>
           <SectionPara>
             Thanks for stopping by my page! This site showcases my projects to
@@ -22,18 +30,12 @@ const About = () => {
             as my general takeaways. Now, on to a little more about myself.
           </SectionPara>
           <SectionPara>
-            I enjoy trying new things - whether it be in the kitchen, traveling,
+            I enjoy trying new things, whether it be in the kitchen, traveling,
             or enjoying the outdoors. I find the unknown pretty exciting. I've
             always been a big picture person but I will obsess over the small
             things if not done correctly. I like collaborative efforts but I
             also enjoy running with my own responsibilities. Other than that, I
             consider myself a creative person and life long learner.
-          </SectionPara>
-          <SectionPara>
-            <h3>Skills proficient in</h3>
-            Javascript // React // SASS // Styled-Components // GraphQL <br />
-            <h3>Other Skills</h3>
-            Git // CSS3 // HTML5 // Github // Bootstrap // npm
           </SectionPara>
         </ContentContainer>
         <ButtonContainer>
