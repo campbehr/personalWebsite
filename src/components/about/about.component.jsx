@@ -7,20 +7,28 @@ import {
   SectionPara,
   ButtonContainer,
   Background,
+  Badge,
 } from "./about.styles"
+
+import badge from "./aws-certified-cloud-practitioner.png"
 
 const About = () => {
   return (
     <Background>
       <AboutContainer>
         <ContentContainer>
-          <SectionTitle>Skills</SectionTitle>
+          <SectionTitle>Skills/Certifications</SectionTitle>
           <SectionPara>
             <h3>Front End</h3>
             Javascript (ES6, ReactJS, GatsbyJS) // HTML // CSS3 // SASS // REST
             APIs // Git <br />
             <h3>Back End</h3>
-            NodeJS // NoSQL (MongoDB) // Java // AWS
+            NodeJS // NoSQL (MongoDB) // Java // AWS <br />
+            <Badge>
+              <a href="https://www.youracclaim.com/badges/8aa04a16-dcd7-4bba-9cbe-775db7e54842/public_url">
+                <img src={badge} alt="AWS CP certification" />
+              </a>
+            </Badge>
           </SectionPara>
           <SectionTitle>About</SectionTitle>
           <SectionPara>

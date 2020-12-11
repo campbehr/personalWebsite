@@ -48,6 +48,13 @@ export const SectionPara = styled.p`
     padding-left: 60px;
   }
 `
+export const Badge = styled.div`
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+`
+
 export const Button = styled.button`
   margin-top: 30px;
 `
