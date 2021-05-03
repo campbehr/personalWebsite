@@ -20,10 +20,9 @@ const About = () => {
           <SectionTitle>Skills/Certifications</SectionTitle>
           <SectionPara>
             <h3>Front End</h3>
-            Javascript (ES6, ReactJS, GatsbyJS) // HTML // CSS3 // SASS // REST
-            APIs // Git <br />
+            Javascript (ES6, ReactJS, GatsbyJS) // HTML // CSS3 // SASS // Git <br />
             <h3>Back End</h3>
-            NodeJS // NoSQL (MongoDB) // Java // AWS <br />
+            NodeJS // MongoDB // AWS <br />
             <Badge>
               <a href="https://www.youracclaim.com/badges/8aa04a16-dcd7-4bba-9cbe-775db7e54842/public_url">
                 <img src={badge} alt="AWS CP certification" />
