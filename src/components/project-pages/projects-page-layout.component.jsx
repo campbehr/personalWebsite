@@ -30,7 +30,7 @@ export default function PageTemplate({ data: { mdx } }) {
       <SEO title={project.title} />
       <HeaderContainer>
         <Link className="back" to="/">
-          ≤--- Back to home
+          <CustomButton>Home</CustomButton>
         </Link>
         <h1>{project.title}</h1>
       </HeaderContainer>

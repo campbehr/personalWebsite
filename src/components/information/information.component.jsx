@@ -1,29 +1,18 @@
 import React from "react"
-import WidgetBar from "../social-widgets/social-widgets.component"
 
-import {
-  InformationContainer,
-  FooterHeader,
-  FooterTitle,
-  FooterSocialLinks,
-} from "./information.styles"
+import { WizardContainer, FooterHeader } from "./information.styles"
 
 const Information = () => {
   return (
-    <InformationContainer>
+    <WizardContainer>
       <FooterHeader>
-        <FooterTitle>
-          <h1>
-            Hunter
-            <br />
-            Campbell
-          </h1>
-        </FooterTitle>
-        <FooterSocialLinks>
-          <WidgetBar />
-        </FooterSocialLinks>
+        <p>
+          "A wizard is never late, Frodo Baggins. Nor is he early. He arrives
+          precisely when he means to".
+        </p>
+        <p>- Gandalf the Grey</p>
       </FooterHeader>
-    </InformationContainer>
+    </WizardContainer>
   )
 }
 
