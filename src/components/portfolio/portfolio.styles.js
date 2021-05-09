@@ -94,7 +94,7 @@ export const LeftThumbnailContainer = styled.div`
 
 export const RightThumbnailContainer = styled.div`
   ${centerChild}
-  background-color: purple;
+  background-color: #FF00FF;
   margin-bottom: 50px;
 
   @media screen and (min-width: 900px) {

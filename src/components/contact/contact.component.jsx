@@ -7,7 +7,7 @@ import { Form, FormContainer } from "./contact.styles"
 const Contact = () => {
   return (
     <FormContainer id="contact">
-      <h2>Contact</h2>
+      <h2 style={{ color: "white" }}>Contact</h2>
       <Form
         name="contact-form"
         method="POST"

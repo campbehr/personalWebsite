@@ -14,11 +14,11 @@ export const Button = styled.button`
   line-height: 55px; */
 
   &:hover {
-    background-color: rgb(255, 72, 72);
+    background-color: #ff00ff;
   }
 
   &.inverted {
-    background-color: rgb(255, 72, 72);
+    background-color: #ff00ff;
 
     &:hover {
       background-color: black;

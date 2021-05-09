@@ -1,5 +1,6 @@
 import React from "react"
 import CustomButton from "../custom-button/custom-button.component"
+
 import {
   AboutContainer,
   ContentContainer,
@@ -20,9 +21,11 @@ const About = () => {
           <SectionTitle>Skills/Certifications</SectionTitle>
           <SectionPara>
             <h3>Front End</h3>
-            Javascript (ES6, ReactJS, GatsbyJS) // HTML // CSS3 // SASS // Git <br />
+            Javascript (ES6, ReactJS, GatsbyJS) // HTML // CSS3 // SASS <br />
             <h3>Back End</h3>
-            NodeJS // MongoDB // AWS <br />
+            NodeJS (ExpressJS) // MongoDB <br />
+            <h3>Tools & Tech</h3>
+            Git // Github // AWS // DigitalOcean // Figma // VSCode // MacOS
             <Badge>
               <a href="https://www.youracclaim.com/badges/8aa04a16-dcd7-4bba-9cbe-775db7e54842/public_url">
                 <img src={badge} alt="AWS CP certification" />
@@ -53,13 +56,6 @@ const About = () => {
             rel="noopener noreferrer"
           >
             <CustomButton>Resume</CustomButton>
-          </a>
-          <a
-            href="https://medium.com/@hunter.campbell843"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <CustomButton>Articles</CustomButton>
           </a>
         </ButtonContainer>
       </AboutContainer>
